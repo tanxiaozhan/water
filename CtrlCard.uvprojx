@@ -528,11 +528,6 @@
           <GroupName>Doc</GroupName>
           <Files>
             <File>
-              <FileName>extern_flash_address.txt</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\Doc\extern_flash_address.txt</FilePath>
-            </File>
-            <File>
               <FileName>http_cgi_par.txt</FileName>
               <FileType>5</FileType>
               <FilePath>.\Doc\http_cgi_par.txt</FilePath>
@@ -546,11 +541,6 @@
               <FileName>RTC_txt.txt</FileName>
               <FileType>5</FileType>
               <FilePath>.\Doc\RTC_txt.txt</FilePath>
-            </File>
-            <File>
-              <FileName>scan_type.jpg</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\Doc\scan_type.jpg</FilePath>
             </File>
           </Files>
         </Group>
