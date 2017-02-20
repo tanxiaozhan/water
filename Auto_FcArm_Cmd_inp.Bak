@@ -1,0 +1,11 @@
+setTime.cgi,
+index.htm,
+pabb.gif,
+llblue.jpg,
+footer.inc,
+header.inc,
+logo.png,
+home.png,
+back.png,
+alarmSet.cgi 
+TO Web.c RTE NOPRINT ROOT(Web)
