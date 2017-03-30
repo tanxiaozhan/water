@@ -32,7 +32,7 @@ extern struct net_http_cfg  net_http_config;
 
 extern struct_time water_time;
 extern struct rtc_time system_time;
-extern uint8_t water_last_second;    //浇花时长，秒为单位
+extern uint16_t water_last_second;    //浇花时长，秒为单位
 
 
 // My structure of CGI status variable.
@@ -48,16 +48,17 @@ typedef struct {
 //地址分配详见Doc/extern_flash_address.txt
 void save_display_para_to_flash(void){
 
-	uint8_t buff[4];
+	uint8_t buff[5];
 	//擦除地址0开始的4K存储扇区
 	SPI_FLASH_SectorErase(4096);
 
-	//保存屏幕参数
+	//保存浇花参数
 	buff[0]=water_time.hour;
 	buff[1]=water_time.minute;
 	buff[2]=water_time.second;
-	buff[3]=water_last_second;
-  SPI_FLASH_BufferWrite(buff, 4096, 4);
+	buff[3]=water_last_second>>8;
+	buff[4]=water_last_second | 0x00ff ;
+  SPI_FLASH_BufferWrite(buff, 4096, 5);
 	water_stop();
 }
 

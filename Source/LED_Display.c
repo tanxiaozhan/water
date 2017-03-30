@@ -86,15 +86,15 @@ void LED_display_start(void){
 */
 void LED_display_init(void){
 	
-	uint8_t pBuff[4];
+	uint8_t pBuff[5];
 	Port_08_12_GPIO_Config();    //初始化控制卡08、12输出接口用到的GPIO引脚
 
 	//从外部闪存读取显示屏参数
-	SPI_FLASH_BufferRead(pBuff,4096,4);
+	SPI_FLASH_BufferRead(pBuff,4096,5);
 	water_time.hour=9;
 	water_time.minute=0;
 	water_time.second=0;
-  water_last_second=pBuff[3];
+  water_last_second=pBuff[3]*256+pBuff[4];
 	
 	if (pBuff[0]<24)
 		water_time.hour=pBuff[0] ;

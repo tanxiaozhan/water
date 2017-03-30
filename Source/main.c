@@ -24,7 +24,7 @@
 
 struct_time water_time;       //浇花时间
 struct rtc_time system_time;  //系统时间
-uint8_t water_last_second;    //浇花时长，秒为单位
+uint16_t water_last_second;    //浇花时长，秒为单位
 bool water_flag;              //浇花开始标志，true--浇花
 
 /*----------------------------------------------------------------------------
