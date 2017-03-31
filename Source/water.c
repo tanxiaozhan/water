@@ -15,7 +15,7 @@ void water_start(uint16_t seconds){
 	uint16_t i;
 	EN(ON);
 	for(i=0;i<seconds;i++){
-		osDelay(seconds*1000);
+		osDelay(1000);
 	}
 	EN(OFF);
 }

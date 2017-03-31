@@ -2846,52 +2846,52 @@ Image Symbol Table
     i.utc_to_http                            0x0800c4e8   Section        0  net_http_server.o(i.utc_to_http)
     utc_to_http                              0x0800c4e9   Thumb Code   196  net_http_server.o(i.utc_to_http)
     i.water_start                            0x0800c5d8   Section        0  water.o(i.water_start)
-    i.water_stop                             0x0800c60c   Section        0  water.o(i.water_stop)
-    .constdata                               0x0800c61c   Section    12820  web.o(.constdata)
-    imageFileData                            0x0800c620   Data       12728  web.o(.constdata)
-    imageFileTable                           0x0800f7d8   Data          88  web.o(.constdata)
-    .constdata                               0x0800f830   Section       16  led_display.o(.constdata)
-    .constdata                               0x0800f840   Section       48  rtc.o(.constdata)
-    .constdata                               0x0800f870   Section       86  rtx_conf_cm.o(.constdata)
+    i.water_stop                             0x0800c608   Section        0  water.o(i.water_stop)
+    .constdata                               0x0800c618   Section    12820  web.o(.constdata)
+    imageFileData                            0x0800c61c   Data       12728  web.o(.constdata)
+    imageFileTable                           0x0800f7d4   Data          88  web.o(.constdata)
+    .constdata                               0x0800f82c   Section       16  led_display.o(.constdata)
+    .constdata                               0x0800f83c   Section       48  rtc.o(.constdata)
+    .constdata                               0x0800f86c   Section       86  rtx_conf_cm.o(.constdata)
+    __tagsym$$used                           0x0800f888   Number         0  rtx_conf_cm.o(.constdata)
     __tagsym$$used                           0x0800f88c   Number         0  rtx_conf_cm.o(.constdata)
     __tagsym$$used                           0x0800f890   Number         0  rtx_conf_cm.o(.constdata)
     __tagsym$$used                           0x0800f894   Number         0  rtx_conf_cm.o(.constdata)
-    __tagsym$$used                           0x0800f898   Number         0  rtx_conf_cm.o(.constdata)
-    .constdata                               0x0800f8c8   Section      132  usart_stm32f10x.o(.constdata)
-    usart_driver_version                     0x0800f8c8   Data           4  usart_stm32f10x.o(.constdata)
-    USART3_tx                                0x0800f8cc   Data           8  usart_stm32f10x.o(.constdata)
-    USART3_rx                                0x0800f8d4   Data           8  usart_stm32f10x.o(.constdata)
-    USART3_Resources                         0x0800f8dc   Data          56  usart_stm32f10x.o(.constdata)
-    .constdata                               0x0800f94c   Section      248  net_config.o(.constdata)
-    os_thread_def_netCore_Thread             0x0800f94c   Data          16  net_config.o(.constdata)
-    os_thread_def_netSLIP_Thread             0x0800f984   Data          16  net_config.o(.constdata)
-    .constdata                               0x0800fa44   Section       28  modem_null.o(.constdata)
-    .constdata                               0x0800fa60   Section       68  net_tcp.o(.constdata)
-    sa                                       0x0800fa60   Data          44  net_tcp.o(.constdata)
-    flg                                      0x0800fa8c   Data          24  net_tcp.o(.constdata)
-    .constdata                               0x0800faa4   Section      250  net_http_server.o(.constdata)
-    DYear                                    0x0800faa4   Data           6  net_http_server.o(.constdata)
-    Month                                    0x0800faaa   Data          48  net_http_server.o(.constdata)
-    WkDay                                    0x0800fada   Data          28  net_http_server.o(.constdata)
-    DMonth                                   0x0800faf6   Data          24  net_http_server.o(.constdata)
-    ftype                                    0x0800fb0e   Data         144  net_http_server.o(.constdata)
-    .constdata                               0x0800fb9e   Section       18  net_ping.o(.constdata)
-    .constdata                               0x0800fbb0   Section      182  net_sys.o(.constdata)
-    proc_id                                  0x0800fbb8   Data         174  net_sys.o(.constdata)
-    .constdata                               0x0800fc66   Section       32  net_ip4.o(.constdata)
-    p_bin                                    0x0800fc6e   Data           4  net_ip4.o(.constdata)
-    p_asc                                    0x0800fc72   Data          20  net_ip4.o(.constdata)
-    .constdata                               0x0800fc88   Section       24  net_icmp.o(.constdata)
-    t_bin                                    0x0800fc88   Data           5  net_icmp.o(.constdata)
-    t_asc                                    0x0800fc90   Data          16  net_icmp.o(.constdata)
-    .constdata                               0x0800fca0   Section       24  net_http_server_err.o(.constdata)
-    .constdata                               0x0800fcb8   Section      129  ctype_o.o(.constdata)
-    .constdata                               0x0800fd3c   Section        4  ctype_o.o(.constdata)
-    table                                    0x0800fd3c   Data           4  ctype_o.o(.constdata)
-    .conststring                             0x0800fd40   Section       41  net_config.o(.conststring)
-    .conststring                             0x0800fd6c   Section      109  net_tcp.o(.conststring)
-    .conststring                             0x0800fddc   Section       67  net_icmp.o(.conststring)
-    .conststring                             0x0800fe20   Section      511  net_http_server_err.o(.conststring)
+    .constdata                               0x0800f8c4   Section      132  usart_stm32f10x.o(.constdata)
+    usart_driver_version                     0x0800f8c4   Data           4  usart_stm32f10x.o(.constdata)
+    USART3_tx                                0x0800f8c8   Data           8  usart_stm32f10x.o(.constdata)
+    USART3_rx                                0x0800f8d0   Data           8  usart_stm32f10x.o(.constdata)
+    USART3_Resources                         0x0800f8d8   Data          56  usart_stm32f10x.o(.constdata)
+    .constdata                               0x0800f948   Section      248  net_config.o(.constdata)
+    os_thread_def_netCore_Thread             0x0800f948   Data          16  net_config.o(.constdata)
+    os_thread_def_netSLIP_Thread             0x0800f980   Data          16  net_config.o(.constdata)
+    .constdata                               0x0800fa40   Section       28  modem_null.o(.constdata)
+    .constdata                               0x0800fa5c   Section       68  net_tcp.o(.constdata)
+    sa                                       0x0800fa5c   Data          44  net_tcp.o(.constdata)
+    flg                                      0x0800fa88   Data          24  net_tcp.o(.constdata)
+    .constdata                               0x0800faa0   Section      250  net_http_server.o(.constdata)
+    DYear                                    0x0800faa0   Data           6  net_http_server.o(.constdata)
+    Month                                    0x0800faa6   Data          48  net_http_server.o(.constdata)
+    WkDay                                    0x0800fad6   Data          28  net_http_server.o(.constdata)
+    DMonth                                   0x0800faf2   Data          24  net_http_server.o(.constdata)
+    ftype                                    0x0800fb0a   Data         144  net_http_server.o(.constdata)
+    .constdata                               0x0800fb9a   Section       18  net_ping.o(.constdata)
+    .constdata                               0x0800fbac   Section      182  net_sys.o(.constdata)
+    proc_id                                  0x0800fbb4   Data         174  net_sys.o(.constdata)
+    .constdata                               0x0800fc62   Section       32  net_ip4.o(.constdata)
+    p_bin                                    0x0800fc6a   Data           4  net_ip4.o(.constdata)
+    p_asc                                    0x0800fc6e   Data          20  net_ip4.o(.constdata)
+    .constdata                               0x0800fc84   Section       24  net_icmp.o(.constdata)
+    t_bin                                    0x0800fc84   Data           5  net_icmp.o(.constdata)
+    t_asc                                    0x0800fc8c   Data          16  net_icmp.o(.constdata)
+    .constdata                               0x0800fc9c   Section       24  net_http_server_err.o(.constdata)
+    .constdata                               0x0800fcb4   Section      129  ctype_o.o(.constdata)
+    .constdata                               0x0800fd38   Section        4  ctype_o.o(.constdata)
+    table                                    0x0800fd38   Data           4  ctype_o.o(.constdata)
+    .conststring                             0x0800fd3c   Section       41  net_config.o(.conststring)
+    .conststring                             0x0800fd68   Section      109  net_tcp.o(.conststring)
+    .conststring                             0x0800fdd8   Section       67  net_icmp.o(.conststring)
+    .conststring                             0x0800fe1c   Section      511  net_http_server_err.o(.conststring)
     .data                                    0x20000000   Section        7  main.o(.data)
     .data                                    0x20000008   Section        4  flash_spi.o(.data)
     SPITimeout                               0x20000008   Data           4  flash_spi.o(.data)
@@ -3475,49 +3475,49 @@ Image Symbol Table
     svcTimerStart                            0x0800bb61   Thumb Code    96  rt_cmsis.o(i.svcTimerStart)
     sysTimerTick                             0x0800bbc5   Thumb Code    84  rt_cmsis.o(i.sysTimerTick)
     to_tm                                    0x0800c41d   Thumb Code   194  rtc.o(i.to_tm)
-    water_start                              0x0800c5d9   Thumb Code    46  water.o(i.water_start)
-    water_stop                               0x0800c60d   Thumb Code    12  water.o(i.water_stop)
-    imageLastModified                        0x0800c61c   Data           4  web.o(.constdata)
-    os_thread_def_LED_Display                0x0800f830   Data          16  led_display.o(.constdata)
-    os_maxtaskrun                            0x0800f870   Data           2  rtx_conf_cm.o(.constdata)
-    os_stackinfo                             0x0800f874   Data           4  rtx_conf_cm.o(.constdata)
-    os_rrobin                                0x0800f878   Data           4  rtx_conf_cm.o(.constdata)
-    os_tickfreq                              0x0800f87c   Data           4  rtx_conf_cm.o(.constdata)
-    os_tickus_i                              0x0800f880   Data           2  rtx_conf_cm.o(.constdata)
-    os_tickus_f                              0x0800f882   Data           2  rtx_conf_cm.o(.constdata)
-    os_trv                                   0x0800f884   Data           4  rtx_conf_cm.o(.constdata)
-    os_flags                                 0x0800f888   Data           1  rtx_conf_cm.o(.constdata)
-    CMSIS_RTOS_API_Version                   0x0800f88c   Data           4  rtx_conf_cm.o(.constdata)
-    CMSIS_RTOS_RTX_Version                   0x0800f890   Data           4  rtx_conf_cm.o(.constdata)
-    os_clockrate                             0x0800f894   Data           4  rtx_conf_cm.o(.constdata)
-    os_timernum                              0x0800f898   Data           4  rtx_conf_cm.o(.constdata)
-    mp_tcb_size                              0x0800f89c   Data           2  rtx_conf_cm.o(.constdata)
-    mp_stk_size                              0x0800f8a0   Data           4  rtx_conf_cm.o(.constdata)
-    os_stack_sz                              0x0800f8a4   Data           4  rtx_conf_cm.o(.constdata)
-    os_fifo_size                             0x0800f8a8   Data           1  rtx_conf_cm.o(.constdata)
-    os_thread_def_osTimerThread              0x0800f8ac   Data          16  rtx_conf_cm.o(.constdata)
-    os_messageQ_def_osTimerMessageQ          0x0800f8bc   Data           8  rtx_conf_cm.o(.constdata)
-    mp_tmr_size                              0x0800f8c4   Data           2  rtx_conf_cm.o(.constdata)
-    Driver_USART3                            0x0800f914   Data          56  usart_stm32f10x.o(.constdata)
-    os_mutex_def_net_lock                    0x0800f95c   Data           4  net_config.o(.constdata)
-    os_mutex_def_mem_lock                    0x0800f960   Data           4  net_config.o(.constdata)
-    net_sys_config                           0x0800f964   Data          32  net_config.o(.constdata)
-    os_semaphore_def_slip_lock               0x0800f994   Data           4  net_config.o(.constdata)
-    net_slip_config                          0x0800f998   Data          40  net_config.o(.constdata)
-    net_localm                               0x0800f9c0   Data          12  net_config.o(.constdata)
-    net_localm6                              0x0800f9cc   Data          12  net_config.o(.constdata)
-    net_tcp_config                           0x0800f9d8   Data          20  net_config.o(.constdata)
-    net_http_config                          0x0800f9ec   Data          40  net_config.o(.constdata)
-    net_sys_func                             0x0800fa14   Data          48  net_config.o(.constdata)
-    Driver_MODEM                             0x0800fa44   Data          28  modem_null.o(.constdata)
-    net_ping_payload                         0x0800fb9e   Data          18  net_ping.o(.constdata)
-    os_timer_def_net_tick                    0x0800fbb0   Data           8  net_sys.o(.constdata)
-    net_addr4_bcast                          0x0800fc66   Data           4  net_ip4.o(.constdata)
-    net_addr4_loopback                       0x0800fc6a   Data           4  net_ip4.o(.constdata)
-    net_http_error                           0x0800fca0   Data          24  net_http_server_err.o(.constdata)
-    __ctype_table                            0x0800fcb8   Data         129  ctype_o.o(.constdata)
-    Region$$Table$$Base                      0x08010020   Number         0  anon$$obj.o(Region$$Table)
-    Region$$Table$$Limit                     0x08010040   Number         0  anon$$obj.o(Region$$Table)
+    water_start                              0x0800c5d9   Thumb Code    42  water.o(i.water_start)
+    water_stop                               0x0800c609   Thumb Code    12  water.o(i.water_stop)
+    imageLastModified                        0x0800c618   Data           4  web.o(.constdata)
+    os_thread_def_LED_Display                0x0800f82c   Data          16  led_display.o(.constdata)
+    os_maxtaskrun                            0x0800f86c   Data           2  rtx_conf_cm.o(.constdata)
+    os_stackinfo                             0x0800f870   Data           4  rtx_conf_cm.o(.constdata)
+    os_rrobin                                0x0800f874   Data           4  rtx_conf_cm.o(.constdata)
+    os_tickfreq                              0x0800f878   Data           4  rtx_conf_cm.o(.constdata)
+    os_tickus_i                              0x0800f87c   Data           2  rtx_conf_cm.o(.constdata)
+    os_tickus_f                              0x0800f87e   Data           2  rtx_conf_cm.o(.constdata)
+    os_trv                                   0x0800f880   Data           4  rtx_conf_cm.o(.constdata)
+    os_flags                                 0x0800f884   Data           1  rtx_conf_cm.o(.constdata)
+    CMSIS_RTOS_API_Version                   0x0800f888   Data           4  rtx_conf_cm.o(.constdata)
+    CMSIS_RTOS_RTX_Version                   0x0800f88c   Data           4  rtx_conf_cm.o(.constdata)
+    os_clockrate                             0x0800f890   Data           4  rtx_conf_cm.o(.constdata)
+    os_timernum                              0x0800f894   Data           4  rtx_conf_cm.o(.constdata)
+    mp_tcb_size                              0x0800f898   Data           2  rtx_conf_cm.o(.constdata)
+    mp_stk_size                              0x0800f89c   Data           4  rtx_conf_cm.o(.constdata)
+    os_stack_sz                              0x0800f8a0   Data           4  rtx_conf_cm.o(.constdata)
+    os_fifo_size                             0x0800f8a4   Data           1  rtx_conf_cm.o(.constdata)
+    os_thread_def_osTimerThread              0x0800f8a8   Data          16  rtx_conf_cm.o(.constdata)
+    os_messageQ_def_osTimerMessageQ          0x0800f8b8   Data           8  rtx_conf_cm.o(.constdata)
+    mp_tmr_size                              0x0800f8c0   Data           2  rtx_conf_cm.o(.constdata)
+    Driver_USART3                            0x0800f910   Data          56  usart_stm32f10x.o(.constdata)
+    os_mutex_def_net_lock                    0x0800f958   Data           4  net_config.o(.constdata)
+    os_mutex_def_mem_lock                    0x0800f95c   Data           4  net_config.o(.constdata)
+    net_sys_config                           0x0800f960   Data          32  net_config.o(.constdata)
+    os_semaphore_def_slip_lock               0x0800f990   Data           4  net_config.o(.constdata)
+    net_slip_config                          0x0800f994   Data          40  net_config.o(.constdata)
+    net_localm                               0x0800f9bc   Data          12  net_config.o(.constdata)
+    net_localm6                              0x0800f9c8   Data          12  net_config.o(.constdata)
+    net_tcp_config                           0x0800f9d4   Data          20  net_config.o(.constdata)
+    net_http_config                          0x0800f9e8   Data          40  net_config.o(.constdata)
+    net_sys_func                             0x0800fa10   Data          48  net_config.o(.constdata)
+    Driver_MODEM                             0x0800fa40   Data          28  modem_null.o(.constdata)
+    net_ping_payload                         0x0800fb9a   Data          18  net_ping.o(.constdata)
+    os_timer_def_net_tick                    0x0800fbac   Data           8  net_sys.o(.constdata)
+    net_addr4_bcast                          0x0800fc62   Data           4  net_ip4.o(.constdata)
+    net_addr4_loopback                       0x0800fc66   Data           4  net_ip4.o(.constdata)
+    net_http_error                           0x0800fc9c   Data          24  net_http_server_err.o(.constdata)
+    __ctype_table                            0x0800fcb4   Data         129  ctype_o.o(.constdata)
+    Region$$Table$$Base                      0x0801001c   Number         0  anon$$obj.o(Region$$Table)
+    Region$$Table$$Limit                     0x0801003c   Number         0  anon$$obj.o(Region$$Table)
     water_time                               0x20000000   Data           3  main.o(.data)
     water_last_second                        0x20000004   Data           2  main.o(.data)
     water_flag                               0x20000006   Data           1  main.o(.data)
@@ -3560,9 +3560,9 @@ Memory Map of the image
 
   Image Entry point : 0x08000131
 
-  Load Region LR_IROM1 (Base: 0x08000000, Size: 0x00010134, Max: 0x00040000, ABSOLUTE)
+  Load Region LR_IROM1 (Base: 0x08000000, Size: 0x00010130, Max: 0x00040000, ABSOLUTE)
 
-    Execution Region ER_IROM1 (Base: 0x08000000, Size: 0x00010040, Max: 0x00040000, ABSOLUTE)
+    Execution Region ER_IROM1 (Base: 0x08000000, Size: 0x0001003c, Max: 0x00040000, ABSOLUTE)
 
     Base Addr    Size         Type   Attr      Idx    E Section Name        Object
 
@@ -4079,36 +4079,36 @@ Memory Map of the image
     0x0800c35c   0x000000c0   Code   RO         3170    i.tcp_write         Net4_Dbg_CM3_L.lib(net_tcp.o)
     0x0800c41c   0x000000cc   Code   RO          478    i.to_tm             rtc.o
     0x0800c4e8   0x000000f0   Code   RO         3287    i.utc_to_http       Net4_Dbg_CM3_L.lib(net_http_server.o)
-    0x0800c5d8   0x00000034   Code   RO          636    i.water_start       water.o
-    0x0800c60c   0x00000010   Code   RO          637    i.water_stop        water.o
-    0x0800c61c   0x00003214   Data   RO          151    .constdata          web.o
-    0x0800f830   0x00000010   Data   RO          361    .constdata          led_display.o
-    0x0800f840   0x00000030   Data   RO          479    .constdata          rtc.o
-    0x0800f870   0x00000056   Data   RO          667    .constdata          rtx_conf_cm.o
-    0x0800f8c6   0x00000002   PAD
-    0x0800f8c8   0x00000084   Data   RO          732    .constdata          usart_stm32f10x.o
-    0x0800f94c   0x000000f8   Data   RO         2218    .constdata          net_config.o
-    0x0800fa44   0x0000001c   Data   RO         2402    .constdata          modem_null.o
-    0x0800fa60   0x00000044   Data   RO         3171    .constdata          Net4_Dbg_CM3_L.lib(net_tcp.o)
-    0x0800faa4   0x000000fa   Data   RO         3288    .constdata          Net4_Dbg_CM3_L.lib(net_http_server.o)
-    0x0800fb9e   0x00000012   Data   RO         3355    .constdata          Net4_Dbg_CM3_L.lib(net_ping.o)
-    0x0800fbb0   0x000000b6   Data   RO         3384    .constdata          Net4_Dbg_CM3_L.lib(net_sys.o)
-    0x0800fc66   0x00000020   Data   RO         3967    .constdata          Net4_Dbg_CM3_L.lib(net_ip4.o)
-    0x0800fc86   0x00000002   PAD
-    0x0800fc88   0x00000018   Data   RO         3989    .constdata          Net4_Dbg_CM3_L.lib(net_icmp.o)
-    0x0800fca0   0x00000018   Data   RO         4044    .constdata          Net4_Dbg_CM3_L.lib(net_http_server_err.o)
-    0x0800fcb8   0x00000081   Data   RO         4530    .constdata          mc_w.l(ctype_o.o)
-    0x0800fd39   0x00000003   PAD
-    0x0800fd3c   0x00000004   Data   RO         4531    .constdata          mc_w.l(ctype_o.o)
-    0x0800fd40   0x00000029   Data   RO         2219    .conststring        net_config.o
-    0x0800fd69   0x00000003   PAD
-    0x0800fd6c   0x0000006d   Data   RO         3172    .conststring        Net4_Dbg_CM3_L.lib(net_tcp.o)
-    0x0800fdd9   0x00000003   PAD
-    0x0800fddc   0x00000043   Data   RO         3990    .conststring        Net4_Dbg_CM3_L.lib(net_icmp.o)
-    0x0800fe1f   0x00000001   PAD
-    0x0800fe20   0x000001ff   Data   RO         4045    .conststring        Net4_Dbg_CM3_L.lib(net_http_server_err.o)
-    0x0801001f   0x00000001   PAD
-    0x08010020   0x00000020   Data   RO         4566    Region$$Table       anon$$obj.o
+    0x0800c5d8   0x00000030   Code   RO          636    i.water_start       water.o
+    0x0800c608   0x00000010   Code   RO          637    i.water_stop        water.o
+    0x0800c618   0x00003214   Data   RO          151    .constdata          web.o
+    0x0800f82c   0x00000010   Data   RO          361    .constdata          led_display.o
+    0x0800f83c   0x00000030   Data   RO          479    .constdata          rtc.o
+    0x0800f86c   0x00000056   Data   RO          667    .constdata          rtx_conf_cm.o
+    0x0800f8c2   0x00000002   PAD
+    0x0800f8c4   0x00000084   Data   RO          732    .constdata          usart_stm32f10x.o
+    0x0800f948   0x000000f8   Data   RO         2218    .constdata          net_config.o
+    0x0800fa40   0x0000001c   Data   RO         2402    .constdata          modem_null.o
+    0x0800fa5c   0x00000044   Data   RO         3171    .constdata          Net4_Dbg_CM3_L.lib(net_tcp.o)
+    0x0800faa0   0x000000fa   Data   RO         3288    .constdata          Net4_Dbg_CM3_L.lib(net_http_server.o)
+    0x0800fb9a   0x00000012   Data   RO         3355    .constdata          Net4_Dbg_CM3_L.lib(net_ping.o)
+    0x0800fbac   0x000000b6   Data   RO         3384    .constdata          Net4_Dbg_CM3_L.lib(net_sys.o)
+    0x0800fc62   0x00000020   Data   RO         3967    .constdata          Net4_Dbg_CM3_L.lib(net_ip4.o)
+    0x0800fc82   0x00000002   PAD
+    0x0800fc84   0x00000018   Data   RO         3989    .constdata          Net4_Dbg_CM3_L.lib(net_icmp.o)
+    0x0800fc9c   0x00000018   Data   RO         4044    .constdata          Net4_Dbg_CM3_L.lib(net_http_server_err.o)
+    0x0800fcb4   0x00000081   Data   RO         4530    .constdata          mc_w.l(ctype_o.o)
+    0x0800fd35   0x00000003   PAD
+    0x0800fd38   0x00000004   Data   RO         4531    .constdata          mc_w.l(ctype_o.o)
+    0x0800fd3c   0x00000029   Data   RO         2219    .conststring        net_config.o
+    0x0800fd65   0x00000003   PAD
+    0x0800fd68   0x0000006d   Data   RO         3172    .conststring        Net4_Dbg_CM3_L.lib(net_tcp.o)
+    0x0800fdd5   0x00000003   PAD
+    0x0800fdd8   0x00000043   Data   RO         3990    .conststring        Net4_Dbg_CM3_L.lib(net_icmp.o)
+    0x0800fe1b   0x00000001   PAD
+    0x0800fe1c   0x000001ff   Data   RO         4045    .conststring        Net4_Dbg_CM3_L.lib(net_http_server_err.o)
+    0x0801001b   0x00000001   PAD
+    0x0801001c   0x00000020   Data   RO         4566    Region$$Table       anon$$obj.o
 
 
     Execution Region RW_IRAM1 (Base: 0x20000000, Size: 0x00005b88, Max: 0x0000c000, ABSOLUTE)
@@ -4190,11 +4190,11 @@ Image component sizes
        328         28          0          0          0       1861   system_stm32f10x.o
       4772        174        132          0         56      51274   usart_stm32f10x.o
        176         12          0          0          0       1036   usartx.o
-        68         10          0          0          0        859   water.o
+        64         10          0          0          0        859   water.o
        136          8      12820          0          0       1744   web.o
 
     ----------------------------------------------------------------------
-     13690       1190      13760        136      22512     438431   Object Totals
+     13686       1190      13760        136      22512     438431   Object Totals
          0          0         32          0          0          0   (incl. Generated)
         34          0          5          1          0          0   (incl. Padding)
 
@@ -4299,15 +4299,15 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-     50412       9958      15188        244      23188     517869   Grand Totals
-     50412       9958      15188        244      23188     517869   ELF Image Totals
-     50412       9958      15188        244          0          0   ROM Totals
+     50408       9958      15188        244      23188     517869   Grand Totals
+     50408       9958      15188        244      23188     517869   ELF Image Totals
+     50408       9958      15188        244          0          0   ROM Totals
 
 ==============================================================================
 
-    Total RO  Size (Code + RO Data)                65600 (  64.06kB)
+    Total RO  Size (Code + RO Data)                65596 (  64.06kB)
     Total RW  Size (RW Data + ZI Data)             23432 (  22.88kB)
-    Total ROM Size (Code + RO Data + RW Data)      65844 (  64.30kB)
+    Total ROM Size (Code + RO Data + RW Data)      65840 (  64.30kB)
 
 ==============================================================================
 
