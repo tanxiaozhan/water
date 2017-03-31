@@ -16,7 +16,7 @@ osThreadId LED_display_thread_id;   //显示线程id，创建/中止此线程控制显示的开关
 
 extern struct_time water_time;
 uint8_t now[4]={1,2,0,0};    //当前时间，数组元素0，1保存小时，2，3保存分钟
-extern uint8_t water_last_second;    //浇花时长，秒为单位
+extern uint16_t water_last_second;    //浇花时长，秒为单位
 
 //显示主线程
 static void LED_Display(void const *arg);

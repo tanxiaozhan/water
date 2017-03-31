@@ -11,9 +11,12 @@
 *
 ********************************************
 */
-void water_start(uint8_t seconds){
+void water_start(uint16_t seconds){
+	uint16_t i;
 	EN(ON);
-	osDelay(seconds*1000);
+	for(i=0;i<seconds;i++){
+		osDelay(seconds*1000);
+	}
 	EN(OFF);
 }
 

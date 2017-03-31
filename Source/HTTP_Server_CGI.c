@@ -56,8 +56,8 @@ void save_display_para_to_flash(void){
 	buff[0]=water_time.hour;
 	buff[1]=water_time.minute;
 	buff[2]=water_time.second;
-	buff[3]=water_last_second>>8;
-	buff[4]=water_last_second | 0x00ff ;
+	buff[3]=(uint8_t)(water_last_second >>8);
+	buff[4]=water_last_second & 0x00ff ;
   SPI_FLASH_BufferWrite(buff, 4096, 5);
 	water_stop();
 }
